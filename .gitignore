@@ -1,0 +1,83 @@
+# Built Visual Studio files
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.csproj
+*.vcxproj*
+*.xcodeproj
+*.xcworkspace
+
+# Binaries and Intermediate files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Unreal auto-generated files
+*.pdb
+*.obj
+*.exe
+*.dll
+*.app
+*.dylib
+*.icns
+*.target
+*.log
+*.vs/
+*.user
+*.db
+
+# Ignore local plugin builds
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+Plugins/*/Saved/
+
+# Ignore local project settings
+*.opensdf
+*.sdf
+*.suo
+*.tmp
+*.cache
+*.log
+*.vsconfig
+
+# Compiled source
+*.gen.cpp
+*.generated.h
+*.obj
+*.exe
+*.dll
+*.lib
+*.app
+*.dSYM
+*.apk
+*.xcodeproj
+*.xcworkspace
+
+# Mac-specific
+.DS_Store
+
+# Node / npm
+node_modules/
+
+# Rider specific
+.idea/
+*.sln.iml
+
+# Optional: Ignore packed assets
+*.pak
+*.ucas
+*.utoc
+
+# Optional: Ignore config overrides (if team wants consistent configs)
+#Config/DefaultEditorPerProjectUserSettings.ini
+#Config/DefaultEditorUserSettings.ini
+
+# Optional: Ignore crash reports
+*.dmp
